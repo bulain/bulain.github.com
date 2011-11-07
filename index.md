@@ -3,9 +3,8 @@ title: Home
 layout: default
 ---
 
-<h1>Welcome Bulain's GitHub Page</h1>
 
-I will research the next technology in a few days:
+<div>I will research the next technology in a few days:</div>
 <ol>
 <li>Vertical extension for big table.</li>
 <li>Horizon extension for big table.</li>

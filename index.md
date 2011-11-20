@@ -27,7 +27,6 @@ layout: default
 <li>OpenSSH: A set of computer programs providing encrypted communication sessions over a computer network using the SSH protocol.</li>
 <li>Subversion: An open source version control system</li>
 <li>MySQL: A database management system.</li>
-<li>Phpmyadmin: A free software tool written in PHP intended to handle the administration of MySQL over the World Wide Web.</li>
 <li>Apache: A powerful, flexible, HTTP(1.1) compliant web server.</li>
 <li>Nginx: An HTTP and reverse proxy server, as well as a mail proxy server.</li>
 <li>Lighttpd: A Security, speed, compliance, flexibility and lightweight open-source web server.</li>
@@ -49,8 +48,16 @@ layout: default
 <li>Nexus: An repository manager.</li>
 <li>Sonar: An open platform to manage code quality.</li>
 <li>ActiviMQ: The most popular and powerful open source messaging and Integration Patterns server.</li>
-<li>Jboss: An open-source Java EE-based application server.</li>
+<li>JBoss: An open-source Java EE-based application server.</li>
+<li>Postfix: A mail server that started life at IBM research as an alternative to the widely-used Sendmail program.</li>
+<li>Courier: An integrated mail/groupware server based on open commodity protocols, such as ESMTP, IMAP, POP3, LDAP, SSL, and HTTP.</li>
 <li>PHP: A general-purpose server-side scripting language originally designed for web development to produce dynamic web pages.</li>
+<li>Phpmyadmin: A free software tool written in PHP intended to handle the administration of MySQL over the World Wide Web.</li>
+<li>Postfixadmin: A Web Based Management tool created for Postfix.</li>
+<li>Squirrelmail: A standards-based webmail package written in PHP4.</li>
+<li>Roundcube: A free and open source webmail software for the masses, written in PHP.</li>
 <li>Discuz: An discussion platform.</li>
 <li>Dokuwiki: A standards compliant, simple to use Wiki, mainly aimed at creating documentation of any kind.</li>
+<li>Monit: A free open source utility for managing and monitoring, processes, files, directories and filesystems on a UNIX system.</li>
+<li>Rsync: An open source utility that provides fast incremental file transfer.</li>
 </ol>

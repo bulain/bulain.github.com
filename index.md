@@ -27,6 +27,7 @@ layout: default
 <li>OpenSSH: A set of computer programs providing encrypted communication sessions over a computer network using the SSH protocol.</li>
 <li>Subversion: An open source version control system</li>
 <li>MySQL: A database management system.</li>
+<li>Phpmyadmin: A free software tool written in PHP intended to handle the administration of MySQL over the World Wide Web.</li>
 <li>Apache: A powerful, flexible, HTTP(1.1) compliant web server.</li>
 <li>Nginx: An HTTP and reverse proxy server, as well as a mail proxy server.</li>
 <li>Lighttpd: A Security, speed, compliance, flexibility and lightweight open-source web server.</li>
@@ -35,6 +36,7 @@ layout: default
 <li>Rails: An open-source web framework that's optimized for programmer happiness and sustainable productivity.</li>
 <li>Passenger: Easy and robust deployment of Ruby on Rails applications on Apache and Nginx Webservers.</li>
 <li>Redmine: A flexible project management web application. Written using Ruby on Rails framework, it is cross-platform and cross-database.</li>
+<li>Webistrano: A Web UI for managing Capistrano deployments.</li>
 <li>Python: A programming language that lets you work more quickly and integrate your systems more effectively.</li>
 <li>Review Board: A powerful web-based code review tool that offers developers an easy way to handle code reviews.</li>
 <li>Git: A free and open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
@@ -48,4 +50,7 @@ layout: default
 <li>Sonar: An open platform to manage code quality.</li>
 <li>ActiviMQ: The most popular and powerful open source messaging and Integration Patterns server.</li>
 <li>Jboss: An open-source Java EE-based application server.</li>
+<li>PHP: A general-purpose server-side scripting language originally designed for web development to produce dynamic web pages.</li>
+<li>Discuz: An discussion platform.</li>
+<li>Dokuwiki: A standards compliant, simple to use Wiki, mainly aimed at creating documentation of any kind.</li>
 </ol>

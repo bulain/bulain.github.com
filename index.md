@@ -18,10 +18,10 @@ layout: default
 <li>Intel Core i5-2400 Processor (6M Cache, 3.10 GHz)</li>
 <li>4GB (1x4GB) Non-ECC DDR3 1333MHz SDRAM Memory</li>
 <li>500GB 7200 RPM 3.5" SATA Hard Drive</li>
-<li>Ubuntu Linux 10.10</li>
+<li>Ubuntu Linux 10.04 Server</li>
 </ol>
 
-<div>Software I want to install.</div>
+<div>Software I have installed.</div>
 <ol>
 <li>Vsftpd: An FTP server for Unix-like systems, including Linux.</li>
 <li>OpenSSH: A set of computer programs providing encrypted communication sessions over a computer network using the SSH protocol.</li>

@@ -1,3 +1,9 @@
+---
+title: Subversion Install On Ubuntu From Source
+layout: default
+---
+
+<pre>
 1，从源程序安装Apache
 1.1 从源程序进行安装
 sudo apt-get install openssl libssl-dev
@@ -53,3 +59,4 @@ mkdir svntest
 echo "This is a test subversion" >> svntest/test.txt
 svn import -m "new import" svntest file:///home/svn/svntest
 
+</pre>

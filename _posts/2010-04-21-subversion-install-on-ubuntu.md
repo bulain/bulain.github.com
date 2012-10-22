@@ -39,7 +39,7 @@ sudo apt-get install apache2
 http://localhost
 确认是否正确显示信息。
 </pre>
-<ul>
+</ul>
 
 <li>安装libapache2-svn</li>
 <pre>

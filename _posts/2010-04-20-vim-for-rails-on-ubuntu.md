@@ -30,6 +30,6 @@ set tabstop=4
 set cindent shiftwidth=4
 set autoindent shiftwidth=4
 filetype plugin indent on
-map <F8> :NERDTree<CR>
-"map <C-S> <C-C>:w<CR>
+map &lt;F8&gt; :NERDTree&lt;CR&gt;
+"map &lt;C-S&gt; &lt;C-C&gt;:w&lt;CR&gt;
 </pre>

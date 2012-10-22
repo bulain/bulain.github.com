@@ -1,9 +1,9 @@
 ---
-title: Linux下Subversion的搭建。
+title: Linux下Subversion的搭建
 layout: default
 ---
 
-<div>Linux下Subversion的搭建。</div>
+<div>Linux下Subversion的搭建</div>
 <ol>
 <li>安装Subversion。</li>
 <ul>
@@ -46,6 +46,7 @@ sudo apt-get install libapache2-svn
 
 <li>配置Apache</li>
 4.1 编辑/etc/apache2/httpd.conf
+<pre>
 <Location /svn>
   DAV svn
   SVNPath /home/svn
@@ -56,11 +57,15 @@ sudo apt-get install libapache2-svn
 #  Satisfy Any 
   Require valid-user
 </Location>
+</pre>
 
 4.2 添加用户
+<pre>
 sudo htpasswd -c /etc/subversion/passwd user1
+</pre>
 
 4.3 添加用户组
+<pre>
 编辑/etc/subversion/authz
 [groups]
 g_svn = user1, user2
@@ -71,14 +76,18 @@ svnroot = wr
 
 [/svntest]
 @g_svn = rw
+</pre>
 
 4.4 测试
+<pre>
 sudo /etc/init.d/apache2 restart
 svn co http://localhost/svn/svntest svntest
 浏览器访问：http://localhost/svn/svntest
+</pre>
 
 <li>配置https</li>
 5.1 配置https
+<pre>
 a2enmod ssl
 sudo mkdir /etc/apache2/ssl
 cd /etc/apache2/ssl
@@ -90,6 +99,7 @@ sudo openssl req -x509 -newkey rsa:1024 -keyout apache.pem -out apache.pem -node
   SSLProtocol all
   SSLCipherSuite HIGH:MEDIUM
 </VirtualHost>
+</pre>
 
 5.2 重启服务器，测试https
 sudo /etc/init.d/apache2 restart

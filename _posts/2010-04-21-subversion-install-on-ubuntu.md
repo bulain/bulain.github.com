@@ -38,4 +38,60 @@ http://localhost
 sudo apt-get install libapache2-svn 
 </pre>
 
+<li>配置Apache</li>
+<pre>
+4.1 编辑/etc/apache2/httpd.conf
+&lt;Location /svn&gt;
+  DAV svn
+  SVNPath /home/svn
+  AuthType Basic
+  AuthName "subversion repository"
+  AuthUserFile /etc/subversion/passwd
+  AuthzSVNAccessFile /etc/subversion/authz
+#  Satisfy Any 
+  Require valid-user
+&lt;/Location&gt;
+
+4.2 添加用户
+sudo htpasswd -c /etc/subversion/passwd user1
+
+4.3 添加用户组
+编辑/etc/subversion/authz
+[groups]
+g_svn = user1, user2
+
+[/]
+@g_svn = r
+svnroot = wr
+
+[/svntest]
+@g_svn = rw
+
+4.4 测试
+sudo /etc/init.d/apache2 restart
+svn co http://localhost/svn/svntest svntest
+浏览器访问：http://localhost/svn/svntest
+</pre>
+
+<li>配置https</li>
+<pre>
+5.1 配置https
+a2enmod ssl
+sudo mkdir /etc/apache2/ssl
+cd /etc/apache2/ssl
+sudo openssl req -x509 -newkey rsa:1024 -keyout apache.pem -out apache.pem -nodes -days 999 
+编辑/etc/apache2/httpd.conf
+&lt;VirtualHost *:443&gt;
+  SSLEngine on
+  SSLCertificateFile /etc/apache2/ssl/apache.pem
+  SSLProtocol all
+  SSLCipherSuite HIGH:MEDIUM
+&lt;/VirtualHost&gt;
+
+5.2 重启服务器，测试https
+sudo /etc/init.d/apache2 restart
+svn co https://localhost/svn/svntest svntest
+浏览器访问：https://localhost/svn/svntest
+</pre>
+
 </ol>

@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Server configuration
 layout: default
 ---
 

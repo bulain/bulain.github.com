@@ -3,15 +3,12 @@ title: Linux Ubuntu下Rails Vim环境的搭建
 layout: default
 ---
 
-<div>Linux Ubuntu下Rails Vim环境的搭建</div>
-<ol>
-<li>安装vim完全版。</li>
 <pre>
+Linux Ubuntu下Rails Vim环境的搭建  
+1，安装vim完全版。
 sudo apt-get install vim
-</pre>
 
-<li>安装vim插件。</li>
-<pre>
+2，安装vim插件。
 参见：http://www.vim.org/scripts/script.php?script_id=1567
 NERD_tree.vim
 rails.vim
@@ -19,10 +16,8 @@ lookupfile.vim
 genutils.vim
 snipMate.vim  
 vcscommand.vim  
-</pre>
 
-<li>修改~/.vimrc，添加以下内容：</li>
-<pre>
+3，修改~/.vimrc，添加以下内容：
 "set guifont=Monaco\ 11
 set bsdir=buffer
 set enc=utf-8
@@ -38,4 +33,3 @@ filetype plugin indent on
 map <F8> :NERDTree<CR>
 "map <C-S> <C-C>:w<CR>
 </pre>
-</ol>

@@ -5,14 +5,14 @@ layout: default
 
 <div>Linux下Subversion的搭建</div>
 <ol>
-<li>安装Subversion。</li>
+<li>安装Subversion
 <ul>
-<li>从安装源安装</li>
+<li>从安装源安装
 <pre>
 sudo apt-get install subversion
 </pre>
-
-<li>测试Subversion的安装</li>
+</li>
+<li>测试Subversion的安装
 <pre>
 sudo svnadmin create /home/svn
 sudo groupadd subversion
@@ -23,7 +23,9 @@ mkdir svntest
 echo "This is a test subversion" >> svntest/test.txt
 svn import -m "new import" svntest file:///home/svn/svntest
 </pre>
+</li>
 </ul>
+</li>
 
 <li>安装apache2服务器</li>
 <ul>

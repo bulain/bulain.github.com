@@ -7,6 +7,7 @@ keywords: css,github
 
 #Github Pages Blog 写法
 
+
 ###1, 标题写法
 #Title 1
 ##Title 2
@@ -24,6 +25,7 @@ keywords: css,github
 * test 5
 * test 6
 
+
 ###3, 有序列表写法
 1. test 1
 2. test 2
@@ -33,8 +35,7 @@ keywords: css,github
 6. test 6
 
 
-
-###4, CSS写法
+###4, 样式写法
     /*
      * css 测试
      */
@@ -47,4 +48,19 @@ keywords: css,github
     git add . 
     git commit -m 'comments'
     git push -u origin master
+
+
+###6, 样式错误写法
+/*
+* css 测试
+*/
+.sl-rgba{
+background:rgba(0, 0, 0, 0.3);
+}
+
+
+###6, 命令错误写法
+git add . 
+git commit -m 'comments'
+git push -u origin master
 

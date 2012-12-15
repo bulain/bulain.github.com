@@ -7,8 +7,8 @@ keywords: css,github
 
 #Github Pages Blog 写法
 
-
-###1, 标题写法
+___
+###标题写法
 #Title 1
 ##Title 2
 ###Title 3
@@ -16,51 +16,58 @@ keywords: css,github
 #####Title 5
 ######Title 6
 
-
-###2, 无序列表写法
+___
+###无序列表写法
 * test 1
 * test 2
 * test 3
-* test 4
-* test 5
-* test 6
+    + test 1
+    + test 2
+    + test 3
+        - test 1
+        - test 2
+        - test 3
 
 
-###3, 有序列表写法
+___
+###有序列表写法
 1. test 1
 2. test 2
 3. test 3
-4. test 4
-5. test 5
-6. test 6
+    1. test 1
+    2. test 2
+    3. test 3
+        1. test 1
+        2. test 2
+        3. test 3
 
-
-###4, 样式写法
+___
+###代码区块写法
     /*
-     * css 测试
+     * 样式写法
      */
     .sl-rgba{
         background:rgba(0, 0, 0, 0.3);
     }
 
-
-###5, 命令写法
+    #命令写法
     git add . 
     git commit -m 'comments'
     git push -u origin master
 
+    #代码写法
+    private static ExecutorService getExecutorService() {
+        if (executorService != null) {
+            return executorService;
+        }
 
-###6, 样式错误写法
-/*
-* css 测试
-*/
-.sl-rgba{
-background:rgba(0, 0, 0, 0.3);
-}
+        return executorService;
+    }
 
 
-###6, 命令错误写法
-git add . 
-git commit -m 'comments'
-git push -u origin master
+___
+###引用写法
+>mail test 1
+
+>mail test 2
 

@@ -25,12 +25,12 @@ Github Style 手册
 * test 6
 
 ###li写法
-1 test 1
-2 test 2
-3 test 3
-4 test 4
-5 test 5
-6 test 6
+1. test 1
+2. test 2
+3. test 3
+4. test 4
+5. test 5
+6. test 6
 
 
 ###1, Title 1 中文

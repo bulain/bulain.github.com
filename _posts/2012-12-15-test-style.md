@@ -5,7 +5,7 @@ description: Test Style
 keywords: css,github
 ---
 
-Github Style 手册
+#Github Pages Blog 写法
 
 ###1, 标题写法
 #Title 1
@@ -15,7 +15,7 @@ Github Style 手册
 #####Title 5
 ######Title 6
 
-###
+
 ###2, 无序列表写法
 * test 1
 * test 2

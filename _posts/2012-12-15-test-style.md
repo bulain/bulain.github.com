@@ -5,7 +5,7 @@ description: Test Style
 keywords: css,github
 ---
 
-#Github Pages Blog 写法
+#Markdown语法说明
 
 ___
 ###标题写法
@@ -60,4 +60,41 @@ ___
 >mail test 1
 
 >mail test 2
+
+___
+###链接写法
+This is inline link 1. <http://www.google.com>
+
+This is inline link 2. [Index](/index.html "Index")
+
+This is inline link 3. [Google](http://www.google.com "Google")
+
+This is referance link 1. [Google][1]
+
+This is referance link 2. [Google][link1]
+
+This is referance link 3. [Google][]
+
+  [1]: http://www.google.com "Google"
+  [link1]: http://www.google.com "Google"
+  [Google]: http://www.google.com "Google"
+
+___
+###强调写法
+*single asterisks*
+
+**double asterisks**
+
+___
+###代码写法
+Use the `printf()` function.
+
+
+___
+###图片写法
+![inline picture](/shared/bootstrap/img/glyphicons-halflings.png)
+
+![referance picture][pic1]
+
+[pic1]: /shared/bootstrap/img/glyphicons-halflings.png  "referance picture"
 

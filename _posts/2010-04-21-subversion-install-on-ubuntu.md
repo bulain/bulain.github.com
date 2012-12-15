@@ -21,7 +21,7 @@ ___
     sudo chmod -R g+rws /home/svn
 
     mkdir svntest
-    echo "This is a test subversion" &gt;&gt; svntest/test.txt
+    echo "This is a test subversion" >> svntest/test.txt
     svn import -m "new import" svntest file:///home/svn/svntest
 
 ___
@@ -46,7 +46,7 @@ ___
 ###4 配置Apache
 4-1 编辑/etc/apache2/httpd.conf
 
-    &lt;Location /svn&gt;
+    <Location /svn>
       DAV svn
       SVNPath /home/svn
       AuthType Basic
@@ -55,7 +55,7 @@ ___
       AuthzSVNAccessFile /etc/subversion/authz
       #Satisfy Any 
       Require valid-user
-    &lt;/Location&gt;
+    </Location>
 
 4-2 添加用户
 
@@ -90,12 +90,12 @@ ___
 
 5-2 编辑/etc/apache2/httpd.conf
 
-    &lt;VirtualHost *:443&gt;
+    <VirtualHost *:443>
       SSLEngine on
       SSLCertificateFile /etc/apache2/ssl/apache.pem
       SSLProtocol all
       SSLCipherSuite HIGH:MEDIUM
-    &lt;/VirtualHost&gt;
+    </VirtualHost>
 
 5-3 重启服务器，测试https
 

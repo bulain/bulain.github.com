@@ -9,7 +9,7 @@ keywords: rails,vim,linux,ubuntu
 
 ___
 ###安装vim完全版。
-sudo apt-get install vim
+    sudo apt-get install vim
 
 ___
 ###安装vim插件。

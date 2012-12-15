@@ -8,8 +8,8 @@ keywords: subversion,linux,ubuntu
 #Subversion Install On Ubuntu From Source
 
 ___
-###1，从源程序安装Apache
-1.1 从源程序进行安装
+###1 从源程序安装Apache
+1-1 从源程序进行安装
 
     sudo apt-get install openssl libssl-dev
 下载Apache源程序，http://www.eng.lsu.edu/mirrors/apache/httpd/httpd-x.x.x.tar.gz
@@ -29,7 +29,7 @@ ___
     make
     sudo make install
 
-1.2 测试安装
+1-2 测试安装
 
     export APACHE_HOME=/usr/local/apache-x.x.x
     export PATH=$PATH:$APACHE_HOME/bin
@@ -41,7 +41,7 @@ ___
 
 ___
 ###2 从源程序安装Subversion
-2.1 从源程序安装
+2-1 从源程序安装
 
     下载subversion-x.x.x.tar.gz, http://subversion.tigris.org/downloads/subversion-x.x.x.tar.gz
     安装之前可能需要安装zlib1g zlib1g-dev libexpat1 libexpat1-dev
@@ -56,7 +56,7 @@ ___
     make
     sudo make install
 
-2.2 测试Subversion安装
+2-2 测试Subversion安装
 
     export SVN_HOME=/usr/local/subversion-x.x.x
     export PATH=$PATH:$SVN_HOME/bin

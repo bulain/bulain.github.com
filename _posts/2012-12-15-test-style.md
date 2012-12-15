@@ -21,25 +21,25 @@ ___
 * test 1
 * test 2
 * test 3
-    + test 1
-    + test 2
-    + test 3
-        - test 1
-        - test 2
-        - test 3
+    * test 1
+    * test 2
+    * test 3
+        * test 1
+        * test 2
+        * test 3
 
 
 ___
 ###有序列表写法
-1. test 1
-2. test 2
-3. test 3
-    1. test 1
-    2. test 2
-    3. test 3
-        1. test 1
-        2. test 2
-        3. test 3
+0. test 1
+0. test 2
+0. test 3
+    0. test 1
+    0. test 2
+    0. test 3
+        0. test 1
+        0. test 2
+        0. test 3
 
 ___
 ###代码区块写法

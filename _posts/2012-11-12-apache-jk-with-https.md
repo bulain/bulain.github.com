@@ -7,8 +7,7 @@ keywords: apache,jk,tomcat,https
 
 ___
 ###configuration with https
-edit <apache_home>/conf/httpd.conf
-
+    vim <apache_home>/conf/httpd.conf
     LoadModule ssl_module modules/mod_ssl.so 
     Include conf/extra/httpd-ssl.conf 
     <IfModule ssl_module>
@@ -16,8 +15,7 @@ edit <apache_home>/conf/httpd.conf
     SSLRandomSeed connect builtin
     </IfModule>
 
-edit <apache_home>/conf/extra/httpd-ssl.conf
-
+    vim <apache_home>/conf/extra/httpd-ssl.conf
     SSLCertificateFile "<apache_home>/conf/server.crt"
     SSLCertificateKeyFile "<apache_home>/conf/server.key"
 
@@ -41,8 +39,7 @@ ___
 
 ___
 ###configration jk with https
-edit <apache_home>/conf/httpd.conf
-
+    vim <apache_home>/conf/httpd.conf
     LoadModule jk_module modules/mod_jk.so
     
     <IfModule jk_module>
@@ -53,17 +50,14 @@ edit <apache_home>/conf/httpd.conf
     JkLogStampFormat "[%a %b %d %H:%M:%S %Y] "
     </IfModule>
 
-edit <apache_home>/conf/extra/httpd-ssl.conf
-
+    vim <apache_home>/conf/extra/httpd-ssl.conf
     JkMountFile conf/uriworkermap.properties
 
-edit <apache_home>/conf/uriworkermap.properties
-
+    vim <apache_home>/conf/uriworkermap.properties
     /test/*=load_balancer
     /jkstatus=jkstatus
 
-edit <apache_home>/conf/workers.properties
-
+    vim <apache_home>/conf/workers.properties
     worker.list=load_balancer,jkstatus
     
     worker.server1.host=localhost

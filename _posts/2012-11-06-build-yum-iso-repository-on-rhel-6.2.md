@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: rhel-6.2下ISO文件作为yum更新源
 description: rhel-6.2下ISO文件作为yum更新源
 keywords: redhat,yum,iso

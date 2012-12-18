@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Apache JK with https
 description: How to configure https on Apache and Tomcate JK
 keywords: apache,jk,tomcat,https

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Installing ReviewBoard on Ubuntu
 description: Installing ReviewBoard on Ubuntu
 keywords: reviewboad,linux,ubuntu

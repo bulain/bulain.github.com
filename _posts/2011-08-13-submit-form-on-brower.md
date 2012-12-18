@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: 浏览器默认回车键触发表单提交
 description: 浏览器默认回车键触发表单提交
 keywords: firefox,IE,chrome

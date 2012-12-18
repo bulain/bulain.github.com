@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Server configuration
 description: Server configuration
 keywords: linux,ubuntu

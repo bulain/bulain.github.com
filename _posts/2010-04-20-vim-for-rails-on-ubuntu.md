@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Install Rails Vim on Linux Ubuntu
 description: Install Rails Vim on Linux Ubuntu
 keywords: rails,vim,linux,ubuntu

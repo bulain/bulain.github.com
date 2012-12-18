@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Subversion Install On Ubuntu From Source
 description: Subversion Install On Ubuntu From Source
 keywords: subversion,linux,ubuntu

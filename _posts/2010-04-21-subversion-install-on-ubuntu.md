@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Install Subversion on Linux Ubuntu
 description: Install Subversion on Linux Ubuntu
 keywords: subversion,linux,ubuntu

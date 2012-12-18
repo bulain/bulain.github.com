@@ -5,8 +5,6 @@ description: Install Subversion on Linux Ubuntu
 keywords: subversion,linux,ubuntu
 ---
 
-###Install Subversion on Linux Ubuntu
-
 ___
 ###1 安装Subversion。
 1-1 从安装源安装

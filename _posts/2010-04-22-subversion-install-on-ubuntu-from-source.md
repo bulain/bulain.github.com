@@ -5,8 +5,6 @@ description: Subversion Install On Ubuntu From Source
 keywords: subversion,linux,ubuntu
 ---
 
-#Subversion Install On Ubuntu From Source
-
 ___
 ###1 从源程序安装Apache
 1-1 从源程序进行安装

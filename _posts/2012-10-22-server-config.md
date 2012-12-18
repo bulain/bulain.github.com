@@ -5,8 +5,6 @@ description: Server configuration
 keywords: linux,ubuntu
 ---
 
-#Server configuration
-
 ___
 ###I will research the next technology in a few days:
 0. Vertical extension for big table.

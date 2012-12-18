@@ -4,9 +4,6 @@ title: Install Rails Vim on Linux Ubuntu
 description: Install Rails Vim on Linux Ubuntu
 keywords: rails,vim,linux,ubuntu
 ---
-
-#Install Rails Vim on Linux Ubuntu
-
 ___
 ###安装vim完全版。
     sudo apt-get install vim
